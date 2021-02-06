@@ -9,9 +9,9 @@ var gameState = PLAY;
 var distance=0;
 
 function preload(){
-  pathImg = loadImage("images/Road.png");
-  mainRacerImg1 = loadAnimation("images/mainPlayer1.png","images/mainPlayer2.png");
-  mainRacerImg2= loadAnimation("images/mainPlayer3.png");
+  pathImg = loadImage("Road.png");
+  mainRacerImg1 = loadAnimation("mainPlayer1.png","mainPlayer2.png");
+  mainRacerImg2= loadAnimation("mainPlayer3.png");
   oppPinkimg1= loadAnimation("opponent1.png","opponent2.png");
   oppPinkimg2= loadAnimation("opponent3.png");
   oppYellowimg1= loadAnimation("opponent4.png","opponent5.png");
@@ -19,7 +19,7 @@ function preload(){
   oppRedimg1= loadAnimation("opponent7.png","opponent8.png")
   oppRedimg2= loadAnimation("opponent9.png")
   gameoverimg= loadImage("gameOver.png")
-  bellsound= loadSound("sound/bell.mp3")
+  bellsound= loadSound("bell.mp3")
 }
 
 function setup(){
